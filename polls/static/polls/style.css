@@ -1,0 +1,7 @@
+li a {
+    color: rgb(7, 241, 241);
+}
+body {
+    background: url("images/images.jpeg") no-repeat;
+    background-size: cover;
+}

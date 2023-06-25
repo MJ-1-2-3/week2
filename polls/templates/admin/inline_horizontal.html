@@ -1,0 +1,3 @@
+{% extends "admin/edit_inline/tabular.html" %}
+
+{% block table %}<tr class="tabular-inline-holder">{% for fieldset in inline_admin_formset %}<td>{{ fieldset.form|fields }}</td>{% endfor %}</tr>{% endblock %}
